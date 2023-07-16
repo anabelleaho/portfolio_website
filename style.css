@@ -3,6 +3,14 @@
     justify-content: flex-end;
     margin: 5%;
     margin-bottom: 10%;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px rgb(255, 252, 252), 
+                0px 2px 4px rgb(255, 255, 255), 
+                0px 4px 8px rgb(255, 255, 255), 
+                0px 8px 16px rgb(251, 255, 255);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .navbar a {
@@ -10,24 +18,35 @@
     color: white;
     font-family: 'Victor Mono', monospace;
     text-decoration: none;
+    padding-inline: 10px;
+    font-size: 20px;
 }
 
 .left-column {
     display: flex;
-    width: 80%;
-    padding-top: 80px;
-    padding-left: 100px;
+    width: 70%;
+    padding-top: 20px;
+    padding-left: 230px;
     padding-bottom: 300px;
     flex-direction: column;
 }
 
 .right-column {
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10%;
+    padding-bottom: 450px;
+    padding-right: 20%;
 }
 
 .container {
-    display: flex;
     font-family: 'Victor Mono', monospace;
+}
+
+.columns {
+    display: flex;
 }
 
 .box-title {
@@ -37,13 +56,144 @@
     height: 36px;
     width: 290px;
     text-align: center;
-    padding-top: 18px;
+    padding-top: 25px;
     font-size: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .name-title {
     font-size: 60px;
     color: white;
-    margin: 10px 0px 0;;
+    margin: 20px 0px 0;;
 }
+
+.description {
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+/* 
+.avatar {
+    height: 200px;
+    width: 200px;
+    border: 5px solid white;
+    border-radius: 50%;
+} */
+
+.glow {
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.5);
+  }
+
+.icons-bar {
+    margin-top: 10%;
+}
+
+.icon {
+    padding-inline: 3%;
+}
+
+.email-info {
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+}
+  
+.email-info img {
+    margin-right: 5px; 
+}
+
+.email-link {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 10%;
+    color: white;
+    text-decoration: none;
+}
+
+.github-info {
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 10%;
+    color: white;
+    text-decoration: none;
+}
+
+.github-link img {
+    margin-left: 5px; 
+}
+  
+.click-arrow {
+    filter: brightness(0) invert(1);
+}
+
+.project-grids {
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px rgb(255, 252, 252), 
+                0px 2px 4px rgb(255, 255, 255), 
+                0px 4px 8px rgb(255, 255, 255), 
+                0px 8px 16px rgb(251, 255, 255);
+    width: 400px;
+    padding: 30px;
+    color: white;
+}
+
+.project-deets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-link {
+    border: solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    max-width: 90px;
+}
+
+.rotate{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+  .border{
+    width: 100%;
+    height: 100%;  
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    animation: borderAnim 5s infinite alternate;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #FFFFFF;
+    box-shadow: -18px 18px 0px 10px #c0e2f2,
+      /* -40px 40px 0px 10px #555256, */
+      -42px 42px 0px 10px rgba(0, 0, 0, .1),
+      -52px 52px 20px rgba(0, 0, 0, .9);
+  }
+  
+  .border img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  @keyframes borderAnim{
+    0% { border-radius: 57% 43% 39% 61% / 68% 33% 67% 32%;}
+    50% {border-radius: 78% 22% 18% 82% / 75% 72% 28% 25%; }
+    100% {border-radius: 26% 74% 83% 17% / 17% 13% 87% 83%; }
+  }
