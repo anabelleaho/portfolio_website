@@ -9,10 +9,10 @@ body {
 
 .nav-container {
     background: white;
-    padding: 60px 30px 5px 100px;
+    padding: 60px 80px 5px 100px;
     display: flex;
     font-family: 'Poppins', sans-serif;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .navbar-links {
@@ -24,7 +24,7 @@ body {
 }
 
 .navlinks {
-    padding-right: 40px;
+    padding-right: 80px;
     text-decoration: none;
     color: black;
 }
@@ -211,16 +211,29 @@ body {
     border-radius: 20px;
     height: 600px;
     margin-left: 60px;
-    margin-right: 60px;
+    margin-right: 80px;
     border: solid rgb(215, 213, 213);
 }
 
 .indiv-card {
-    width: 100%;
+    width: 400px;
     height: 100%;
     border-radius: 20px;
-    object-fit: contain;
+    object-fit: cover;
     padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.project-link {
+    text-decoration: none;
+    padding-left: 20px;
+    margin-top: 80px;
+    border: solid rgb(215, 213, 213);
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    color: rgb(5, 5, 3);
 }
 
 .project-cards {
@@ -232,7 +245,7 @@ body {
 }
 
 .container {
-    padding: 2px 16px;
+    padding: 2px;
 }
 
 .project-title {
@@ -245,6 +258,7 @@ body {
 .project-description {
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 60px;
 }
 
 .name-title {
@@ -307,7 +321,7 @@ body {
     height: 10px;
     background: #e9ecef;
     border-radius: 50px;
-    margin: 20px 500px 75px 500px;
+    margin: 20px 500px 100px 500px;
 }
   
 .loader::before {
