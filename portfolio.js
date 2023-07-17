@@ -8,3 +8,4 @@ function toggleGlow() {
 
 // Finally, add an event listener that toggles the class when the image is clicked.
 image.addEventListener('click', toggleGlow);
+

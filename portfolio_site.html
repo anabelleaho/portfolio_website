@@ -1,31 +1,51 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: rgb(73, 68, 68);">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=VT323&family=Victor+Mono:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&family=VT323&family=Victor+Mono:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         
         <title>Anabelle's Portfolio!</title>
     </head>
+
+        <div class="nav-container">
+                <div class="navbar navbar-expand-sm navbar-light">
+                    <div class="lordicon-container"></div>
+                    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/qatykyxz.json"
+                        trigger="hover"
+                        colors="primary:#121331,secondary:#faf9d1"
+                        style="width:120px;height:120px">
+                    </lord-icon>
+            </div>
+            
+            <div class="navbar-links">
+                <a href="" class="navlinks" target="_blank">ABOUT</a>
+                <a href="" class="navlinks" target="_blank">PROJECTS</a>
+                <a href="" class="navlinks" target="_blank">CONTACT</a>
+            </div>
+        </div>
+
     <body>
         <div class="container">
-            <div class="navbar">
-                <a href="#">Homepage</a>
-                <a href="https://docs.google.com/document/d/e/2PACX-1vTu_7w41R5_Q_3KwrwR0B0I6zAPhpHT-P_YN7uKcUxG6NC3mEDv5jiCA9H9lZ1QHg/pub" target="_blank">Resume</a>
-
-            </div>
-        
             <div class="columns">
                 <div class="left-column">
-                    <p class="box-title">Junior Web Developer</p>
-                    <p class="name-title">HO ANABELLE</p>
-                    <div class="description">Hello! I am a marketer turned web developer, with a passion for constant learning
-                        and looking to expand my skill set by diving into various programming languages, including React and Python!
+                    <p class="box-title">Web Developer</p>
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-md-12 text-center">
+                            <p class="name-title">HO ANABELLE</p>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="description">Transforming ideas into Digital Reality: A Web Developer's Journey!
                     </div>
+
                     <div class="icons-bar">
                         <img class="icon" width="70" height="70" src="https://img.icons8.com/color/96/html-5--v1.png" alt="html-5--v1"/>
                         <img class="icon" width="70" height="70" src="https://img.icons8.com/color/96/javascript--v1.png" alt="javascript--v1"/>
@@ -33,51 +53,72 @@
                         <img class="icon" width="70" height="70" src="https://img.icons8.com/stickers/100/ruby-programming-language.png" alt="ruby-programming-language"/>
                         <img class="icon" width="70" height="70" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/100/external-sql-computer-programming-flaticons-lineal-color-flat-icons.png" alt="external-sql-computer-programming-flaticons-lineal-color-flat-icons"/>
                     </div>
+
+                    <div class="contact">
+                        <p class="email-info">
+                            <img class="email-icon" width="40" height="40" src="https://img.icons8.com/ios/50/email-open.png" alt="email-open"/>
+                            <a class="email-link" href="mailto:anabelleho@hotmail.com" target="_blank">
+                                Email <img class="click-arrow" width="20" height="20" src="https://img.icons8.com/windows/20/enter-2.png" alt="enter-2" style="padding-left: 4px;"/>
+                            </a>
+                        </p>  
+        
+                        <p class="github-info">
+                            <img class="github-icon" width="40" height="40" src="https://img.icons8.com/dotty/80/000000/github.png" alt="github"/>
+                            <a class="github-link" href="https://github.com/anabelleaho" target="_blank">
+                                Github <img class="click-arrow" width="20" height="20" src="https://img.icons8.com/windows/20/enter-2.png" alt="enter-2"/>
+                            </a> 
+                        </p>  
+                    </div>
                 </div>
     
     
                 <div class="right-column">
                     <div class="rotate">
                         <div class="border">
-                            <img class="avatar" alt="avatar" src="profilepic.jpeg" />
+                            <img class="github-icon" width="200px" height="200px" src="profilepic2.png"/>
                         </div>
                     </div>
-                    <!-- <script src="portfolio.js"></script> -->
-                    <p class="email-info">
-                        <img class="email-icon" width="70" height="70" src="https://img.icons8.com/clouds/100/new-post.png" alt="new-post"/>
-                        <a class="email-link" href="mailto:anabelleho@hotmail.com" target="_blank">
-                            Email <img class="click-arrow" width="20" height="20" src="https://img.icons8.com/windows/20/enter-2.png" alt="enter-2" style="padding-left: 4px;"/>
-                        </a>
-                    </p>  
-
-                    <p class="github-info">
-                        <img class="github-icon" width="70" height="70" src="https://img.icons8.com/clouds/100/github.png" alt="github"/>
-                        <a class="github-link" href="https://github.com/anabelleaho" target="_blank">
-                            Github <img class="click-arrow" width="20" height="20" src="https://img.icons8.com/windows/20/enter-2.png" alt="enter-2"/>
-                        </a> 
-                    </p>  
                 </div>
             </div>
             
-            <h1 style="text-align: center; color: white;">Projects</h1>
+            <div class="loader"></div>
+
+            <div class="typewriter">
+                <h1>PROJECTS.</h1>
+            </div>
+
             <br>
-            <br>
-            <div class="project-container">
-                    <div class="project-grids">
-                        <div class="project-deets">
-                            <img class="grid" height="300px" weight="300px" alt="ss" src="leadspross.png" style="border-radius: 10px;">
-                            <p style="font-size: 20px;">LeadsPro</p>
-                            <p style="font-size: 12px; padding-bottom: 20px; padding-right: 20px;">Created to help companies filter through their customer leads by quality, using AI-powered sentiment analysis.</p>
-                            <a href="https://leadspro-9ddc3d1f2886.herokuapp.com/" class="button-link" target="_blank">Live demo</a>
-                        </div>
+
+            <div class="project-cards">
+                <div class="card">
+                    <div class="container">
+                        <img src="leadspro.gif" alt="Avatar" class="indiv-card" style="height: 100%;">
+                        <p class="project-title">LeadsPro</p>
+                        <p class="project-description">A mobile-responsive leads management website that pre-filters
+                            through leads by their quality using AI-powered sentiment analysis.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="container">
+                        <img src="wipgif.gif" alt="Avatar" class="indiv-card">
+                        <p class="project-title">Project WIP</p>
+                        <p class="project-description">Project description</p>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="container">
+                        <img src="wipgif.gif" alt="Avatar" class="indiv-card">
+                        <p class="project-title">Project WIP</p>
+                        <p class="project-description">Project description</p>
                     </div>
                 </div>
             </div>
+            <br>
+            <br>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
     </body>
 </html>
 
@@ -86,3 +127,17 @@
 
 
 
+<!-- ello! I am a marketer turned web developer, with a passion for constant learning
+                        and looking to expand my skill set into other programming languages over time! 
+                        <br>
+                        <br>
+                        My hobbies outside of coding include exploring the great outdoors with my dog, and volunteering with
+                        a small animal rescue, specifically for guinea pigs!
+                        <br>
+                        <br>
+                        I aim to showcase my coding skills through a collection of current and future projects. This website 
+                        serves as a platform for me to share my coding journey and highlight the innovative solutions I've developed.
+                        <br>
+                        <br>
+                        If you'd like to exchange knowledge, discuss coding techniques, and collaborate on exciting projects, please
+                        feel free to reach out to me!  -->
